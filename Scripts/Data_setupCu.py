@@ -3,7 +3,6 @@ from pathlib import Path
 from mace.calculators import mace_mp
 import csv
 import numpy as np
-# Select best model and remove for loops, only calculate with 1 model
 
 models = ['small', 'medium', 'large', 'medium-mpa-0', 'small-0b', 'medium-0b', 'small-0b2', 'medium-0b2', 'medium-0b3', 'large-0b2', 'medium-omat-0']
 results = Path(f'../RMSD_Zhongwei/Geometries/CuCu')
